@@ -1,0 +1,131 @@
+/* reset style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /* body styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+/* header styles */ 
+
+header {
+    background: rgb(187, 142, 218);
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo img{
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+}
+
+/* hero syles */
+#hero {
+    position: relative;
+}
+#hero #background-hero{
+    display: inline-block;
+    width: 100%;
+}
+#hero .container-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: rgb(145, 9, 54); /*text color */
+    padding: 0px 50px;
+}
+
+#hero .container-info #profile-picture{
+    width: 200px;
+}
+
+#hero .container-info #profile-picture img{
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+}
+
+#hero .container-info .information{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .container-info .information span{
+    color: #b90303;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+/* Main syles */
+
+main{
+    padding: 100px;
+}
+
+/* Social icons styles */
+
+main .social-icons{
+
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+main .social-icons li{
+    margin-left: 10px;
+}
+
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#twitter {
+    background-color: rgb(40, 108, 185);
+}
+#youtube{
+    background-color: #b90303;
+}
+#github{
+    background-color: black;
+}
+#linkedin{
+    background-color: blue;
+}
+#platzi{
+    background-color: rgb(37, 4, 68);
+}
+
+footer {
+    background: rgb(202, 11, 69);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    
+}
