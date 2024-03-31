@@ -125,7 +125,5 @@ footer {
     background: rgb(202, 11, 69);
     padding: 20px;
     display: flex;
-    justify-content: center;
-
-    
+    justify-content: center;    
 }
